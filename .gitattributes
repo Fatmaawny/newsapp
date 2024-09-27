@@ -1,6 +1,3 @@
-# Tell GitHub to ignore Android/iOS native files for language stats
-android/* linguist-vendored
-ios/* linguist-vendored
-
-# Ignore C++ files if present in the repo
-*.cpp linguist-vendored
+git add .gitattributes
+git commit -m "Add .gitattributes to adjust language stats"
+git push origin main
